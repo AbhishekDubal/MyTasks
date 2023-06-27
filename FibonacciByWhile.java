@@ -11,13 +11,11 @@ class FibonacciByWhile {
         int lenghtOfSeries = sc.nextInt();
 
         lenghtOfSeries = lenghtOfSeries-2;
-        int number = 1;
         while(lenghtOfSeries>0){
             System.out.print(number1+" ");
             number3 = number1+number2;
             number1 = number2;
             number2 = number3;
-            number++;
             lenghtOfSeries--;
         }
     }    
